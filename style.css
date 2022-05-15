@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 550px;
+    background: #f58a23;
+}
+
+.conteudo {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    color: #16284b;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    color: #16284b;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    color: #16284b;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ul li a{
+    display: flex;
+    flex-direction: row;
+    color: #16284b;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.login {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #16284b;
+    border-radius: 4px;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.login a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #16284b;
+    padding: 8px 40px;
+}
+
+.login:hover {
+    background: #16284b;
+    color: white;
+}
+
+.login a:hover {
+    transition: background, color 0.6s;
+    background: #16284b;
+    color: white;
+}
+
+.header-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 470px;
+    background: #16284b;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+
+.slogan {
+    position: absolute;
+    max-width: 250px;
+    color: white;
+    font-size: 24px;
+    bottom: 40%; left: 15%;
+    transform: translateX(-20px);
+    transition: transform 0.5s;
+}
+
+.texto {
+    position: absolute;
+    max-width: 250px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    bottom: 20%; left: 15%;
+    transform: translateX(-20px);
+    transition: transform 0.4s;
+
+}
+
+.carroHeader {
+    position: absolute;
+    width: 50%;
+    right: 2%;
+    bottom: 2%;
+}
+
+.catalogo {
+    width: 100vw;
+    
+}
+
+.conteudoCard {
+    max-width: 990px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.campoDePesquisa {
+    max-width: 979px;
+    min-width: 300px;
+    height: 150px;
+    background: #ededed;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchInput {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    padding: 10px;
+}
+
+.searchButton {
+    background: #00285f;
+    color: white;
+    padding: 14.6px 40px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.searchButton:hover {
+    background: #ededed;
+    color: #00285f;
+}
+
+.tittleWrapper {
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.carros {
+    display: inline-block;
+    column-count: 3;
+    column-gap: 50px;
+    max-width: 979px;
+    min-width: 300px;
+    margin-top: 50px;
+    
+}
+
+.modeloCarros {
+    position: relative;
+    color: black;
+    background: #ededed;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+
+
+.carroCard{
+    max-width: 295px;
+}
+
+
+.nomeCarro {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 1px;
+}
+.textoCard {
+    font-size: 20px;
+    padding: 20px;
+    color: #636363;
+}
+
+.Compra {
+    font-size: 1.2em;
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
+    width: 279px;
+    height: 50px;
+    background: #00285f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    
+}
+
+.Compra:hover {
+    background: #d9d9d9;
+    color: #00285f;
+}
+
+.about {
+    width: 100vw;
+}
+
+.conteudoAbout {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.aboutwrapper {
+    margin-top: 100px;
+    padding-bottom: 20px;    
+}
+
+.tituloAbout {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.aboutCard {
+    max-width: 979px;
+    min-width: 300px;
+    height: 400px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    position: relative;
+}
+
+.aboutImage {
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: 2.5%;
+    left: 1%;
+    background: #d9d9d9;
+    border-radius: 4px;
+}
+
+
+
+.aboutBoxTitle {
+    font-weight: bold;
+    margin-bottom: 25px;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
+
+.aboutBoxText {
+    color: #938f8f;
+    text-align: right;
+    position: absolute;
+    max-width: 525px;
+    right: 10%;
+    top: 40%;
+}
+
+.features {
+    width: 100vw;
+    background: #ededed;
+    padding-bottom: 150px;
+    
+}
+
+.conteudoFeatures {
+    max-width: 979px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.featuresWrapper {
+    margin-top: 150px;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+.tituloFeatures {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.featuresList {
+    padding-left: 2%;
+    margin-right: 2%;
+    padding-top: 2%;
+
+    width: 979px;
+    background: white;
+    border-radius: 4px;
+    display: inline-block;
+    column-count: 2;
+    
+}
+
+.featuresListItem {
+    width: 450px;
+    height: 150px;
+    position: relative;
+    border-color: #ededed;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border:2px solid #ededed;
+
+}
+
+.planetFeature {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.featureListItemText {
+    position: absolute;
+    top: 25%;
+    max-width: 200px;
+    right: 15%;
+    color: black;
+}
+
+.featureListItemTextTitle {
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+
+    
+}
+
+.informations {
+    width: 100vw;
+    background: #f58a23;
+
+}
+
+
+
+.conteudoInformations {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    list-style: none;
+    color: white;
+}
+
+.conteudoInformations li {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    position: relative;
+
+}
+
+.Company {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+
+.Rental {
+    font-weight: bold;
+    padding-bottom: 20px;
+    width: 115px;
+
+}
+
+
+
+.StayConnected {
+    font-weight: bold;
+    padding-bottom: 20px;
+    width: 115px;
+}
+
+.ContactUs {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.conteudoInformations li ul {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.conteudoInformations li ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.facebook {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.direitosAutorais {
+    background: #00285f;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+
+
+
+@media (max-width: 500px)
+{
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .carros {
+           display: flex;
+            flex-direction: column;
+        }
+        .modeloCarros {
+            width: 100%;
+        }
+
+        .conteudoInformations {
+            flex-direction: column;
+        }
+
+        .logo {
+            font-size: 20px;
+        }
+
+
+        nav button {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            font-size: 18px;
+        }
+
+}
